@@ -20,4 +20,9 @@
 - 🔍 Search bar and category filtering  
 - 💸 Real-time price updates in cart  
 - 📱 Mobile-first responsive design  
-- 🎨 Smooth CSS transitions & hover effects  
+- 🎨 Smooth CSS transitions & hover effects
+
+---
+
+<p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=Muhammad-Taha-Ansari&show_icons=true&theme=tokyonight" width="420" /> &nbsp; <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Muhammad-Taha-Ansari&layout=compact&theme=tokyonight" width="320" /> </p>
+<p align="center"><i>"Crafting modern, responsive, and user-friendly commerce experiences — one line of code at a time."</i></p>
