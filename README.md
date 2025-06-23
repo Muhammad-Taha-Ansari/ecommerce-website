@@ -21,3 +21,21 @@
 - 💸 Real-time price updates in cart  
 - 📱 Mobile-first responsive design  
 - 🎨 Smooth CSS transitions & hover effects
+  
+---
+
+## 📜 License
+
+This project is licensed under the [MIT License](LICENSE).  
+You are free to use, modify, and distribute it with attribution.
+
+---
+
+## 👨‍💻 Author
+
+**Muhammad Taha Ansari**  
+Electrical Engineering Student | Web Developer  
+📧 tahaansari1703@gmail.com  
+🌐 GitHub: [Muhammad-Taha-Ansari](https://github.com/Muhammad-Taha-Ansari)  
+📍 Karachi, Pakistan
+
