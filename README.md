@@ -24,5 +24,11 @@
 
 ---
 
-<p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=Muhammad-Taha-Ansari&show_icons=true&theme=tokyonight" width="420" /> &nbsp; <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Muhammad-Taha-Ansari&layout=compact&theme=tokyonight" width="320" /> </p>
-<p align="center"><i>"Crafting modern, responsive, and user-friendly commerce experiences — one line of code at a time."</i></p>
+## 🚀 Tech Stack
+
+<p align="center">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
+</p>
+
