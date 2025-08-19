@@ -33,9 +33,11 @@ You are free to use, modify, and distribute it with attribution.
 
 ## 👨‍💻 Author
 
-**Muhammad Taha Ansari**  
-Electrical Engineering Student | Web Developer  
-📧 tahaansari1703@gmail.com  
-🌐 GitHub: [Muhammad-Taha-Ansari](https://github.com/Muhammad-Taha-Ansari)  
-📍 Karachi, Pakistan
+<section id="about" style="text-align: center; margin: 50px 0;">
+  <h2>Muhammad Taha Ansari</h2>
+  <p><strong>Electrical Engineering Student | Web Developer</strong></p>
+  <p>📧 <a href="mailto:tahaansari1703@gmail.com">tahaansari1703@gmail.com</a></p>
+  <p>🌐 <a href="https://github.com/Muhammad-Taha-Ansari" target="_blank">GitHub: Muhammad-Taha-Ansari</a></p>
+  <p>📍 Karachi, Pakistan</p>
+</section>
 
