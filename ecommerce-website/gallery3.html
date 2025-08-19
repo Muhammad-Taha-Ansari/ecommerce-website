@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Daraz Shoping</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  </head>
+  <body>
+    <header>
+        <nav>
+            <div class="logo-search">
+                <a href="#" class="logo">DARAZ SHOPPING</span></a>
+                <div class="search-box">
+                    <input type="search" placeholder="Search Here...">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+
+                <div class="icon">
+                    <a href="#"><i class="fa-regular fa-heart"></i></a>
+                    <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                </div>
+            </div>
+
+            <ul>
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="gallery.html">clothing</a></li>
+                <li><a href="gallery1.html">beauty-items</a></li>
+                <li><a href="gallery2.html">watches</a></li>
+                <li><a href="gallery3.html">shoes</a></li>
+                <li><a href="#">details</a></li>
+                <li><a href="contact.html">contact</a></li>
+                <li><a href="connectus.html">connect us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="containar">
+
+      <!-- Filterable Images / Cards Section -->
+      <div class="row px-2 mt-4 gap-3" id="filterable-cards">
+        <div class="card p-0" data-name="nature">
+          <img src="img/item1.jpg" alt="img">
+          <div class="card-body">
+            <h6 class="card-title">Mountains</h6>
+            <p class="card-text">Lorem ipsum dolor..</p>
+          </div>
+        </div>
+        <div class="card p-0" data-name="nature">
+          <img src="img/item2.jpg" alt="img">
+          <div class="card-body">
+            <h6 class="card-title">Lights</h6>
+            <p class="card-text">Lorem ipsum dolor..</p>
+          </div>
+        </div>
+        <div class="card p-0" data-name="nature">
+          <img src="img/item3.jpg" alt="img">
+          <div class="card-body">
+            <h6 class="card-title">Nature</h6>
+            <p class="card-text">Lorem ipsum dolor..</p>
+          </div>
+        </div>
+        <div class="card p-0" data-name="cars">
+          <img src="img/item4.jpg" alt="img">
+          <div class="card-body">
+            <h6 class="card-title">Retro</h6>
+            <p class="card-text">Lorem ipsum dolor..</p>
+          </div>
+        </div>
+        <div class="card p-0" data-name="cars">
+          <img src="img/item5.jpg" alt="img">
+          <div class="card-body">
+            <h6 class="card-title">Fast</h6>
+            <p class="card-text">Lorem ipsum dolor..</p>
+          </div>
+        </div>
+        <div class="card p-0" data-name="cars">
+          <img src="img/item6.jpg" alt="img">
+          <div class="card-body">
+            <h6 class="card-title">Classic</h6>
+            <p class="card-text">Lorem ipsum dolor..</p>
+          </div>
+        </div>
+        <div class="card p-0" data-name="people">
+          <img src="img/item7.jpg" alt="img">
+          <div class="card-body">
+            <h6 class="card-title">Men</h6>
+            <p class="card-text">Lorem ipsum dolor..</p>
+          </div>
+        </div>
+        <div class="card p-0" data-name="people">
+          <img src="img/item8.jpg" alt="img">
+          <div class="card-body">
+            <h6 class="card-title">Girl</h6>
+            <p class="card-text">Lorem ipsum dolor..</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+
+
+            <!-- Footer -->
+
+            <div class="footer">
+              <div class="contanier">
+                  <div class="row">
+                      <h3>DARAZ SHOPPING</span></h3>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur quas quam eum repellat ex. Autem error reiciendis dolore harum nisi.</p>
+                      <div class="social-links">
+                          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                      </div>
+                  </div>
+  
+                  <div class="row">
+                      <h3>collection</h3>
+                      <ul>
+                          <li><a href="#">summer</a></li>
+                          <li><a href="#">women's dresses</a></li>
+                          <li><a href="#">women's jackets</a></li>
+                          <li><a href="#">men's shirts</a></li>
+                      </ul>
+                  </div>
+  
+                  <div class="row">
+                      <h3>contact</h3>
+                      <ul>
+                          <li>Daraz shop ,plot no ,80-c ,11th Commerical street , phase 2-Ext,karachi.</li>
+                          <li>+2365 2556 22</li>
+                          <li>info@example.com</li>
+                      </ul>
+                  </div>
+  
+                  <div class="row">
+                      <h3>Payment methods</h3>
+                      <p>Use your digital wallets bank cards and internet banking to shop on daraz and ,make contact less payments. </p>
+                          <div class="payment-img">
+                              <img src="img/p1.png" alt="">
+                              <img src="img/p2.png" alt="">
+                              <img src="img/p3.png" alt="">
+                              <img src="img/p4.png" alt="">
+                          </div>
+                  </div>
+              </div>
+          </div>
+  </body>
+</html>
+<script>
+    // Select relevant HTML elements
+const filterButtons = document.querySelectorAll("#filter-buttons button");
+const filterableCards = document.querySelectorAll("#filterable-cards .card");
+
+// Function to filter cards based on filter buttons
+const filterCards = (e) => {
+    document.querySelector("#filter-buttons .active").classList.remove("active");
+    e.target.classList.add("active");
+
+    filterableCards.forEach(card => {
+        // show the card if it matches the clicked filter or show all cards if "all" filter is clicked
+        if(card.dataset.name === e.target.dataset.filter || e.target.dataset.filter === "all") {
+            return card.classList.replace("hide", "show");
+        }
+        card.classList.add("hide");
+    });
+}
+
+filterButtons.forEach(button => button.addEventListener("click", filterCards));
+
+
+</script>
