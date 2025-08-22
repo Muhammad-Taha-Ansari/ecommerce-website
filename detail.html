@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Detail - Viva Store</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+    * {
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: #f1f1f1;
+    }
+
+    .product-container {
+      max-width: 1200px;
+      margin: 50px auto;
+      background: #fff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+
+    .product-image img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .product-details h2 {
+      font-weight: 600;
+    }
+
+    .product-details p {
+      margin: 10px 0;
+    }
+
+    .product-details .price {
+      font-size: 1.5rem;
+      color: #6c757d;
+      font-weight: 600;
+      margin-bottom: 15px;
+    }
+
+    .product-details .quantity input {
+      width: 60px;
+      text-align: center;
+    }
+
+    .related-products .card img {
+      height: 150px;
+      object-fit: cover;
+    }
+
+    .related-products h4 {
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+<header>
+        <nav>
+            <div class="logo-search">
+                <a href="#" class="logo">DARAZ SHOPPING</span></a>
+                <div class="search-box">
+                    <input type="search" placeholder="Search Here...">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+
+                <div class="icon">
+                    <a href="#"><i class="fa-regular fa-heart"></i></a>
+                    <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                </div>
+            </div>
+
+            <ul>
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="gallery.html">clothing</a></li>
+                <li><a href="gallery1.html">beauty-items</a></li>
+                <li><a href="gallery2.html">watches</a></li>
+                <li><a href="gallery3.html">shoes</a></li>
+                <li><a href="#">details</a></li>
+                <li><a href="contact.html">contact</a></li>
+                <li><a href="connectus.html">connect us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+  <!-- Product Detail -->
+  <div class="container product-container">
+    <div class="row">
+      <!-- Product Image -->
+      <div class="col-md-6 product-image">
+        <img src="img/item1.jpg" alt="Product Image">
+      </div>
+
+      <!-- Product Details -->
+      <div class="col-md-6 product-details">
+        <h2>Mountain Hiking Shoes</h2>
+        <p class="price">$120.00</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl vel tincidunt sagittis, nunc urna feugiat nisi, a posuere orci libero nec risus.</p>
+        
+        <div class="mb-3 quantity">
+          <label for="quantity" class="form-label">Quantity:</label>
+          <input type="number" id="quantity" value="1" min="1" class="form-control d-inline-block">
+        </div>
+
+        <button class="btn btn-primary btn-lg"><i class="fa-solid fa-cart-shopping me-2"></i>Add to Cart</button>
+
+        <div class="mt-4">
+          <strong>Category:</strong> Shoes <br>
+          <strong>Availability:</strong> In Stock
+        </div>
+      </div>
+    </div>
+
+    <!-- Related Products -->
+    <div class="related-products mt-5">
+      <h4>Related Products</h4>
+      <div class="row g-3">
+        <div class="col-md-3 col-sm-6">
+          <div class="card">
+            <img src="img/item4.jpg" class="card-img-top" alt="Product">
+            <div class="card-body">
+              <h6 class="card-title">Retro Car Watch</h6>
+              <p class="card-text">$50.00</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="card">
+            <img src="img/item5.jpg" class="card-img-top" alt="Product">
+            <div class="card-body">
+              <h6 class="card-title">Fast Racing Shoes</h6>
+              <p class="card-text">$95.00</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="card">
+            <img src="img/item6.jpg" class="card-img-top" alt="Product">
+            <div class="card-body">
+              <h6 class="card-title">Classic Leather Bag</h6>
+              <p class="card-text">$80.00</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="card">
+            <img src="img/item7.jpg" class="card-img-top" alt="Product">
+            <div class="card-body">
+              <h6 class="card-title">Men's Jacket</h6>
+              <p class="card-text">$70.00</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
